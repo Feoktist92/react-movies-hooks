@@ -23,7 +23,7 @@ const Search = (props) => {
                     <input
                         placeholder='search'
                         type='search'
-                        className='validate'
+                        className='search validate'
                         value={search}
                         onChange={(event) => setSearch(event.target.value)}
                         onKeyDown={handleKey}
